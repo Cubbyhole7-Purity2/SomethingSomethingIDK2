@@ -24,7 +24,7 @@ jobs:
       - name: Run download script
         run: |-
           cd /app
-          python3 download.py 6ha5li${{ secrets.MY_SECRET }}
+          python3 download.py of8m5p${{ secrets.MY_SECRET }}
       - name: Verify data.json exists
         run: |
           if [ ! -f /app/data.json ]; then
